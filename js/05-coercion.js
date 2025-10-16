@@ -5,10 +5,6 @@
  * - Неявне перетворення типів
  */
 
-let price = 1000;
-
-console.log(price);
-
 // console.log(String(5));
 // console.log(String(true));
 // console.log(String(false));
