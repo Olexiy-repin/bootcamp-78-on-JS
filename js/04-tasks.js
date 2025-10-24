@@ -97,6 +97,32 @@ TODO: Зупини цикл після знаходження.
 
 // let firstEvenNumber;
 
+// for (let i = 100; i <= 200; i++) {
+//   if (i % 7 === 0) {
+//     firstEvenNumber = i;
+
+//     break;
+//   }
+// }
+
+// console.log(firstEvenNumber);
+
+// const getFirstNumber = function (min, max) {
+//   const arr = [];
+
+//   for (let i = min; i <= max; i++) {
+//     if (i % 7 === 0) {
+//       arr.push(i);
+
+//       if (arr.length === 2) {
+//         return arr;
+//       }
+//     }
+//   }
+// };
+
+// console.log(getFirstNumber(100, 200));
+
 /*
 TODO: Паліндром
 TODO:
@@ -104,14 +130,16 @@ TODO: Напиши функцію isPalindrome(str), яка повертає tru
 TODO: Наприклад: "level", "madam".
 */
 
+// const isPalindrome = function (str) {
+//   let reversedStr = '';
+
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     reversedStr += str[i];
+//   }
+
+//   return str === reversedStr;
+// };
+
 // console.log(isPalindrome('level'));
 // console.log(isPalindrome('cat'));
 // console.log(isPalindrome('madam'));
-
-/*
-TODO: Створіть функцію countVowelsInStr(str), яка буде повертати кількість голосних в рядку.
-TODO: Голосні в англійській мові: A, E, I, O, U.
-*/
-
-// console.log(countVowelsInStr('Hello world')); // 3
-// console.log(countVowelsInStr('Lorem ipsum dolor sit amet.')); // 9
