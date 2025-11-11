@@ -1,0 +1,8 @@
+.backdrop {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.backdrop .basicLightbox__placeholder {
+  background-color: #ffffff;
+  padding: 20px;
+}
