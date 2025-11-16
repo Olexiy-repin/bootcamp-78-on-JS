@@ -1,0 +1,33 @@
+{
+  "name": "bootcamp-78-on-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "minify": "npx postcss src/css/styles.css > src/css/styles.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olexiy-repin/bootcamp-78-on-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Olexiy-repin/bootcamp-78-on-JS/issues"
+  },
+  "homepage": "https://github.com/Olexiy-repin/bootcamp-78-on-JS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "cssnano": "^7.1.2",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1"
+  },
+  "browserslist": [
+    "> 0.2%"
+  ]
+}
